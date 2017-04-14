@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  .editboard {
+    flex: 1 1 auto;
+  }
+}
+.app-logo {
+  height: 40px;
+  svg * {
+    fill: #FFF;
+  }
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
